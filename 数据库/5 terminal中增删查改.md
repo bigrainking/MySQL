@@ -4,7 +4,7 @@
 
 增删查改
 
-## 数据库中操作
+## terminal中数据库中操作
 
 
 
@@ -34,7 +34,7 @@ Query OK, 0 rows affected (0.01 sec)
 
 
 
-#### 插入数据：
+#### 3. 插入数据：
 
 ```bash
 INSERT INTO table_name ( field1, field2,...fieldN ) #列名
@@ -75,7 +75,7 @@ func insertData(db *sql.DB) {
 
 
 
-#### 查询数据：
+#### 4. 查询数据：
 
 ```bash
 SELECT column_name,column_name

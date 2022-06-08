@@ -16,7 +16,7 @@
    
    ```shell
    sudo apt-get install mysql-server mysql-client 
-sudo apt install libmysqlclient-dev
+   sudo apt install libmysqlclient-dev
    ```
    
 2. 检查是否安装成功：
@@ -73,7 +73,9 @@ sudo chown -R mysql:mysql /var/lib/mysql
 
 **mysqladmin检查mysql服务器版本：**
 
-`mysqladmin --version`
+```bash
+mysqladmin --version
+```
 
 
 
